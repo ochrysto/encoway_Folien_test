@@ -1,0 +1,108 @@
+{
+  "template": "../../Material/encoway PowerPoint-12-2023-Master.pptx",
+  "file_name": "Awesome-Beginning",
+  "title": "Awesome Beginning",
+  "slides": [
+    {
+      "slide_format": "title",
+      "headline": "Awesome Beginning",
+      "sub_header": "feugiat a, tellus",
+      "name": "Horst",
+      "date": "2024-11-20"
+    },
+    {
+      "slide_format": "introduction",
+      "headline": "Machine",
+      "sub_header": "feugiat a, tellus",
+      "img_url": "../../Material/images/pexels-pixabay-48799.jpg",
+      "bullet_points": [
+        "Lorem ipsum dolor sit amet",
+        "consectetuer adipiscing elit",
+        "Aenean commodo ligula eget dolor",
+        "rcu. In enim justo"
+      ]
+    },
+    {
+      "slide_format": "introduction",
+      "headline": "Aenean imperdie",
+      "sub_header": "Etiam ultricies nisi vel augue",
+      "img_url": "../../Material/images/pexels-pixabay-159201.jpg",
+      "bullet_points": [
+        "Aliquet nec, vulputate eget",
+        "Nam eget dui. Etiam rhoncus",
+        "Curabitur ullamcorper ultricies nisi",
+        "Nam eget dui",
+        "2consectetuer adipiscing elit"
+      ]
+    },
+    {
+      "slide_format": "introduction",
+      "headline": "Celeifend tellus",
+      "sub_header": "Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus",
+      "img_url": "../../Material/images/pexels-shvetsa-5953723.jpg",
+      "bullet_points": [
+        "Etiam ultricies nisi vel augue",
+        "n enim justo",
+        "Cum sociis natoque penatibus et magnis dis parturient montes"
+      ]
+    },
+    {
+      "slide_format": "table",
+      "headline": "Vivamus elementum",
+      "sub_header": "sit amet adipiscing sem nequ",
+      "table_content": [
+        {
+          "name": "Lev Pickett",
+          "phone": "1-928-347-3530",
+          "email": "sit.amet.consectetuer@google.ca",
+          "date": "Dec 7, 2024"
+        },
+        {
+          "name": "Shoshana Cantu",
+          "phone": "1-710-631-5153",
+          "email": "phasellus@protonmail.ca",
+          "date": "Sep 29, 2025"
+        },
+        {
+          "name": "Joy Huffman",
+          "phone": "1-411-632-0607",
+          "email": "ut.erat@protonmail.edu",
+          "date": "Mar 5, 2025"
+        },
+        {
+          "name": "Colin Potter",
+          "phone": "1-201-637-5447",
+          "email": "commodo.ipsum.suspendisse@yahoo.com",
+          "date": "Aug 8, 2025"
+        }
+      ]
+    },
+    {
+      "slide_format": "chart",
+      "chart_type": "pie",
+      "headline": "Lorem Ipsum",
+      "sub_header": "At vero eos et accusam et justo",
+      "categories": [
+        "Lorem",
+        "Ipsum",
+        "Vero",
+        "Diam",
+        "Blabla",
+        "Other"
+      ],
+      "series": [
+        "Aliquyam",
+        "0.135",
+        "0.324",
+        "0.130",
+        "0.235",
+        "0.126",
+        "0.05"
+      ]
+    },
+    {
+      "slide_format": "end",
+      "headline": "Vielen Dank"
+    }
+  ]
+}
