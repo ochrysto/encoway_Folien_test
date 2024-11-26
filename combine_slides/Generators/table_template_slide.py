@@ -9,8 +9,8 @@ def create_table_slide(presentation, data):
     subtitle = table_slide.placeholders[36]
     subtitle.text = data["sub_header"]
 
-    rows = len(data["table_content"]) + 1
-    cols = 4
+    rows = len(data["table_content"]) + 1 # +1 for table head
+    cols = len(data["table_content"][0])
     left = Inches(0.37)
     top = Inches(1.82)
     width = Inches(12.6)
@@ -19,15 +19,12 @@ def create_table_slide(presentation, data):
     table = graphic_frame.table
     # table head
     key_names = list(data["table_content"][0].keys())
-
-    table.cell(0, 0).text = key_names[0]
-    table.cell(0, 1).text = key_names[1]
-    table.cell(0, 2).text = key_names[2]
-    table.cell(0, 3).text = key_names[3]
-    #table body
+    for i, key in enumerate(key_names):
+        table.cell(0, i).text = key
+    # table body
     for i, entry in enumerate(data["table_content"], start=1):
-        table.cell(i, 0).text = entry['name']
-        table.cell(i, 1).text = entry['phone']
-        table.cell(i, 2).text = entry['email']
-        table.cell(i, 3).text = entry['date']
+        for j, key in enumerate(key_names):
+            table.cell(i, j).text = entry[key]
+
+
 
