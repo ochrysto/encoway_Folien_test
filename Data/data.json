@@ -91,7 +91,7 @@
     },
     {
       "slide_format": "chart",
-      "chart_type": "pie",
+      "chart_type": "simple_bar",
       "headline": "Lorem Ipsum",
       "sub_header": "At vero eos et accusam et justo",
       "categories": [

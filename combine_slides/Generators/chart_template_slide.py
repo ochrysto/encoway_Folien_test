@@ -20,17 +20,26 @@ def create_chart_slide(presentation, data):
     top = Inches(1.82)
     width = Inches(12.6)
     height = Inches(4.8)
+    if data["chart_type"] == "pie":
+        create_pie_chart(chart_data, chart_slide, height, left, top, width)
+    elif data["chart_type"] == "simple_bar":
+        create_simple_bar_chart(chart_data, chart_slide, height, left, top, width)
+
+
+def create_pie_chart(chart_data, chart_slide, height, left, top, width):
     chart = chart_slide.shapes.add_chart(
         XL_CHART_TYPE.PIE, left, top, width, height, chart_data
     ).chart
-
     chart.has_legend = True
     chart.legend.position = XL_LEGEND_POSITION.BOTTOM
     chart.legend.include_in_layout = False
-
     chart.plots[0].has_data_labels = True
     data_labels = chart.plots[0].data_labels
     data_labels.number_format = '0%'
     data_labels.position = XL_LABEL_POSITION.OUTSIDE_END
 
 
+def create_simple_bar_chart(chart_data, chart_slide, height, left, top, width):
+    chart_slide.shapes.add_chart(
+        XL_CHART_TYPE.COLUMN_CLUSTERED, left, top, width, height, chart_data
+    )
