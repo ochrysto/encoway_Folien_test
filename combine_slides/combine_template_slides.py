@@ -1,6 +1,7 @@
 from pptx import Presentation
 from combine_slides.Generators import title_template_slide, table_template_slide, slide_9_template_slide, \
     end_template_slide, chart_template_slide
+from Util import slide_cleaner
 import json
 
 data_path = "../Data/data.json"
@@ -23,6 +24,8 @@ for slide_data in data["slides"]:
         chart_template_slide.create_chart_slide(presentation, slide_data)
     elif slide_format == "end":
         end_template_slide.create_end_slde(presentation, slide_data)
+
+slide_cleaner.remove_empty_placeholder(presentation)
 
 # save presentation
 presentation.save(f"../Outcome/{data["file_name"]}.pptx")
