@@ -11,7 +11,7 @@
       "date": "2024-11-20"
     },
     {
-      "slide_format": "introduction",
+      "slide_format": "info",
       "headline": "Machine",
       "sub_header": "feugiat a, tellus",
       "img_url": "../../Material/images/pexels-pixabay-48799.jpg",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "slide_format": "introduction",
+      "slide_format": "info",
       "headline": "Aenean imperdie",
       "sub_header": "Etiam ultricies nisi vel augue",
       "img_url": "../../Material/images/pexels-pixabay-159201.jpg",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "slide_format": "introduction",
+      "slide_format": "info",
       "headline": "Celeifend tellus",
       "sub_header": "Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus",
       "img_url": "../../Material/images/pexels-shvetsa-5953723.jpg",
