@@ -1,0 +1,82 @@
+{
+  "template": "../../Material/encoway PowerPoint-12-2023-Master.pptx",
+  "file_name": "Baseball-Rules",
+  "title": "Baseball Rules!",
+  "slides": [
+    {
+      "slide_format": "title",
+      "headline": "Baseball Rules!",
+      "sub_header": "A short introduction to the world of baseball",
+      "name": "",
+      "date": ""
+    },
+    {
+      "slide_format": "agenda",
+      "headline": "Agenda",
+      "sub_header": "",
+      "bullet_points": [
+        "The field and equipment",
+        "The teams",
+        "Gameplay",
+        "Scoring"
+      ]
+    },
+    {
+      "slide_format": "info",
+      "headline": "Equipment",
+      "sub_header": "",
+      "bullet_points": [
+        "The Ball",
+        "The Bat",
+        "The Glove",
+        "The Helmet"
+      ]
+    },
+    {
+      "slide_format": "info",
+      "headline": "Two Teams, One Goal",
+      "sub_header": "",
+      "bullet_points": []
+    },
+    {
+      "slide_format": "info",
+      "headline": "The Diamond",
+      "sub_header": "",
+      "bullet_points": [
+        "The baseball field is a diamond shape",
+        "The bases",
+        "The pitcher's mound",
+        "Three different kinds of outs"
+      ]
+    },
+    {
+      "slide_format": "info",
+      "headline": "Three Strikes and you are out",
+      "sub_header": "",
+      "bullet_points": [
+        "The Strike Zone",
+        "Throws, or Pitches, are called a strike",
+        "Pitches outside are called balls",
+        "Four balls and the batter is allowed to advance",
+        "Three strikes and the batter is out",
+        "Three outs and the teams swap places"
+      ]
+    },
+    {
+      "slide_format": "info",
+      "headline": "Scoring Runs",
+      "sub_header": "",
+      "bullet_points": [
+        "A run is scored when a runner crosses home plate.",
+        "The team with the most runs at the end of the game wins.",
+        "If the game is tied, extra innings are played until one team scores"
+      ]
+    },
+    {
+      "slide_format": "end",
+      "headline": "",
+      "sub_header": "",
+      "bullet_points": []
+    }
+  ]
+}

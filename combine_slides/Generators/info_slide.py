@@ -23,15 +23,16 @@ def create_slide_9(presentation, data):
     top = Inches(1.75)
     width = Inches(5)
 
-    image = data["img_url"]
-    img_format = edit_image.check_orientation(image)
+    if "img_url" in data:
+        image = data["img_url"]
+        img_format = edit_image.check_orientation(image)
 
-    if img_format == "Portrait":
-        cropped_image = edit_image.crop_image(image)
-        with tempfile.NamedTemporaryFile(delete=False, suffix='.jpg') as temp_file:
-            temp_file_path = temp_file.name
-            cv2.imwrite(temp_file_path, cropped_image)
-        slide.shapes.add_picture(temp_file_path, left, top, width)
-    else:
-        slide.shapes.add_picture(data["img_url"], left, top, width)
+        if img_format == "Portrait":
+            cropped_image = edit_image.crop_image(image)
+            with tempfile.NamedTemporaryFile(delete=False, suffix='.jpg') as temp_file:
+                temp_file_path = temp_file.name
+                cv2.imwrite(temp_file_path, cropped_image)
+            slide.shapes.add_picture(temp_file_path, left, top, width)
+        else:
+            slide.shapes.add_picture(data["img_url"], left, top, width)
 

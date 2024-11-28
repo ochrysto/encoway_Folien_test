@@ -4,7 +4,7 @@ from combine_slides.Generators import title_slide, table_slide, info_slide, \
 from Util import slide_cleaner
 import json
 
-data_path = "../Data/data.json"
+data_path = "../Data/baseball_rules.json"
 # open Data JSON
 with open(data_path, 'r') as data_objects:
     data = json.load(data_objects)
