@@ -62,6 +62,6 @@ presentation_files = list_files_of_type(source , ".pptx")
 print(presentation_files)
 # Indices of slides to extract from each presentation
 slide_indices = [[0, 1, 2], [1, 2], []]
-output_file = "combined_presentation.pptx"
+output_file = "../../Outcome/combined_presentation.pptx"
 
 extract_and_combine_slides(presentation_files, slide_indices, source)

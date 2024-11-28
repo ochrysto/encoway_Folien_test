@@ -63,7 +63,7 @@ def copy_slide(presentation, slide):
 
 if __name__ == "__main__":
     # Beispiel: Extrahieren von Folie 3 aus einer Präsentation
-    presentation_file = "../../Source/Baseball Rules!.pptx"
-    slide_number = 3
+    presentation_file = "../../Source/Präsentation_LF02-v2.pptx"
+    slide_number = 2
     output_file = "../../Outcome/extracted_slide.pptx"
     extract_slide(presentation_file, slide_number, output_file)
